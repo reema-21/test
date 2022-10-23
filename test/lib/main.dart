@@ -2,12 +2,9 @@ import 'package:test/isar_service.dart';
 import 'package:test/entities/aspect.dart';
 import 'package:test/entities/point.dart';
 
-import 'package:isar/isar.dart';//for local Storage
 import 'dart:io';//for the directory
 import 'package:path_provider/path_provider.dart';
-import 'package:isar/isar.dart' ;
 import 'package:flutter/material.dart';
-import 'package:isar_flutter_libs/isar_flutter_libs.dart';
 import 'package:im_stepper/stepper.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';

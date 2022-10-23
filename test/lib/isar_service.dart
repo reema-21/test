@@ -6,7 +6,6 @@ import 'package:test/entities/point.dart';
 
 
 import 'package:isar/isar.dart';
-import 'package:isar_flutter_libs/isar_flutter_libs.dart';
 
 class IsarService{
   late Future<Isar> db ;
@@ -16,7 +15,7 @@ class IsarService{
 
    Future <Isar> openIsar() async{
     if (Isar.instanceNames.isEmpty){ //if didn't opend before open one if iopen used an exsit one 
-     return await Isar.open([AspectSchema,GoalSchema,TaskSchema,HabitSchema,PointSchema] //still the habit schema
+     return await Isar.open([GoalSchema,TaskSchema,HabitSchema,PointSchema] //still the habit schema ///add aspect schema
      , inspector: true);
    
     }
