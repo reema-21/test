@@ -1,5 +1,5 @@
- import 'package:datatry/entities/aspect.dart';
- import 'package:datatry/entities/habit.dart';
+ import 'package:test/entities/aspect.dart';
+ import 'package:test/entities/habit.dart';
 
  import 'package:isar/isar.dart';
  part 'habit.g.dart';

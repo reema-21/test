@@ -1,5 +1,5 @@
-import 'package:datatry/entities/point.dart';
-import 'package:datatry/entities/aspect.dart';
+import 'package:test/entities/point.dart';
+import 'package:test/entities/aspect.dart';
 import 'package:isar/isar.dart';
 part 'point.g.dart';
 @collection 

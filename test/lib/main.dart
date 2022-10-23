@@ -1,6 +1,6 @@
-import 'package:datatry/isar_service.dart';
-import 'package:datatry/entities/aspect.dart';
-import 'package:datatry/entities/point.dart';
+import 'package:test/isar_service.dart';
+import 'package:test/entities/aspect.dart';
+import 'package:test/entities/point.dart';
 
 import 'package:isar/isar.dart';//for local Storage
 import 'dart:io';//for the directory

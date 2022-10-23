@@ -1,8 +1,8 @@
-import 'package:datatry/entities/aspect.dart';
-import 'package:datatry/entities/goal.dart';
-import 'package:datatry/entities/task.dart';
-import 'package:datatry/entities/habit.dart';
-import 'package:datatry/entities/point.dart';
+import 'package:test/entities/aspect.dart';
+import 'package:test/entities/goal.dart';
+import 'package:test/entities/task.dart';
+import 'package:test/entities/habit.dart';
+import 'package:test/entities/point.dart';
 
 
 import 'package:isar/isar.dart';

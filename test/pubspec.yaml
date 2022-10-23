@@ -40,7 +40,7 @@ dependencies:
   cloud_firestore: ^3.5.1
   im_stepper: ^1.0.1+1
   objectbox: ^1.6.2
-  isar: ^3.0.0-dev.8
+  isar: ^3.0.2
   path_provider: ^2.0.11
   introduction_screen: ^3.0.2
   isar_flutter_libs: ^3.0.2
@@ -59,6 +59,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  isar_generator: ^3.0.2
+  build_runner: any
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
